@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <link rel="stylesheet" href="ps2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="header">
+            <div class="logo">
+                <a href="#">Auto Consultancy</a>
+            </div>
+            <div class="search-wrapper">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search cars..."> <button
+                    id="searchButton"><i class="fas fa-search search-icon"></i></button>
+
+            </div>
+            <a href="#" class="login-btn"><i class="fas fa-user"> Login/Register </i></a>
+        </nav>
+
+
+        <div id="login-form" class="login-form">
+            <form>
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">submit</button>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="navbar">
+            <a href="#home"> <i class="fa fa-fw fa-home"></i> Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">New car
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                
+
+                    <a href="latest.html">Latest Cars</a>
+                    <a href="popular.html">Popular Cars</a>
+                    <a href="upcoming.html">Upcoming Cars</a>
+                </div>
+            </div>
+            <a href="electric.html">Electric Vehicle</a>
+            <!-- <a href="Compare car">Compare car</a> -->
+
+            <div class="dropdown">
+                <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="emi/emi.html">EMI Calculator</a>
+                    <a href="aboutus.html">About us</a>
+                </div>
+            </div>
+            <!-- <a href="#" class="split"> <i class="fa fa-fw fa-user"></i> Login/Signup</a>
+         <div class="searchbar"><input type="text" placeholder="Search.."></div> -->
+        </div>
+    </div>
+    </div>
+
+    <div class="background">
+        <img src="back21.jpg" alt="bakcground image" width="1350px" height="500px">
+    </div>
+
+    <div id="resultsContainer" class="resultsContainer">
+    </div>
+    <div id="resultsContainer1" class="resultsContainer1">
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="Twitter">Twitter</a>
+        <a href="#" id="Facebook">Facebook</a>
+        <a href="#" id="Instagram">Instagram</a>
+        <a href="class Blog.html" id="Blog">Blog</a>
+    </div>
+    <h2 class="Latest-cars">Latest cars</h2>
+    <div class="cars">
+        <div class="cars-item2"><a href="/latest cars/mgastor.html"><img src="mg astor.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">MG Astor</h3>
+        
+        </div>
+        <div class="cars-item2"><a href="/latest cars/virtus.html"><img src="virtus.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Volkswagon Virtus</h3>
+        </div>
+
+        <div class="cars-item2"><a href="/latest cars/taigun.html"><img src="taigun.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Volkswagon Taigun</h3>
+        </div>
+        <!-- <div class="cars-item"><img src="kia.jpg" alt="gwagon" " width=" 50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Carens</h3>
+        </div> -->
+        <h4><a href="#">View all latest Cars</a></h4>
+    </div>
+
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h2 class="Latest-cars">The Most Searched Cars</h2>
+    <div class="bltable">
+        <div class="cars-item2"><a href="hatchback.html"><img src="swift.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Hatchback</h3>
+
+        </div>
+        <div class="cars-item2"><a href="sedan.html"><img src="verna.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Sedan</h3>
+        </div>
+        <div class="cars-item2"><a href="suv.html"><img src="harrier.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">SUV</h3>
+        </div>
+        <!-- <div class="cars-item"><img src="kia.jpg" alt="gwagon" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Carens</h3>
+        </div> -->
+
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h2 class="Latest-cars">Upcoming Cars</h2>
+    <div class="bltable">
+        <div class="cars-item2"><a href="/upcoming cars/hondaelevate.html"><img src="Honda Elevate.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Honda Elevate</h3>
+        </div>
+        <div class="cars-item2"><a href="/upcoming cars/defender.html"><img src="defender.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Range Rover Defender</h3>
+        </div>
+        <div class="cars-item2"><a href="/upcoming cars/jeepavenger.html"><img src="Jeep Avenger.webp" alt="gwagon" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Jeep Avenger</h3>
+        </div>
+        <!-- <div class="cars-item"><img src="kia.jpg" alt="gwagon" " width=" 70" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Carens</h3>
+        </div> -->
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h2 class="Latest-cars">Electric Cars</h2>
+    <div class="bltable2">
+        <div class="cars-item"><a href="/electriccar/tiago.html"><img src="tiago-ev2.webp" alt="gwagon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Tata Tiago EV</h3>
+        </div>
+        <div class="cars-item"><a href="/electriccar/mgzs.html"><img src="zs-ev2.webp" alt="gwagon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">MG ZS ev2</h3>
+        </div>
+        <div class="cars-item"><a href="/electriccar/exuv400.html"><img src="Mahindra XUV4002.webp" alt="gwagon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Mahindra XUV400</h3>
+        </div>
+        <!-- <div class="cars-item"><img src="nexon-ev.webp" alt="gwagon" " width=" 70" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Carens</h3>
+        </div> -->
+    </div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h2 class="Latest-cars">Popular Brands</h2>
+    <div class="bltable1">
+        <div class="cars-item1"><a href="maruti.html"><img src="suzuki.jpg" alt="suzuki" " width=" 70"height="40"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Maruti</h3>
+            <!-- <h3 class="title">Price</h3> -->
+        </div>
+        <div class="cars-item1"><a href="hyundai.html"><img src="hyundai.jpg" alt="hyundai" " width=" 70"
+            height="40"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Hyundai</h3>
+        </div>
+        <div class="cars-item1"><a href="mahindra.html"><img src="mahindra.jpg" alt="mahindra" " width=" 70 height="58"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Mahindra</h3>
+        </div>
+        <div class="cars-item1"><a href="tata.html"><img src="tata.jpg" alt="tata" " width=" 70" height="40"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">Tata</h3>
+        </div>
+        <!-- <div class="cars-item"><img src="kia.jpg" alt="tata" " width=" 70" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3 class="title">kia</h3>
+        </div> -->
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <footer class="foot">
+        <a href="faq.html" class="ft">FAQ</a>
+        <a href="#" class="ft">Contact Us</a>
+        <a href="terms.html" class="ft">Terms of use</a>
+        <a href="privacypolicy.html" class="ft">Privacy Policy</a>
+        <a href="#" class="ft">&copy; 2023 |Auto Consultancy</a>
+    </footer>
+
+    <script src="ext.js"></script>
+
+</body>
+
+</html>

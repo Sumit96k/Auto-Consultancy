@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project2</title>
+  <link rel="stylesheet" href="ps2.css">
+
+
+  <script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // Your JavaScript code goes here
+      const loginBtn = document.querySelector(".login-btn");
+      const loginForm = document.getElementById("login-form");
+
+      loginBtn.addEventListener("click", () => {
+        loginForm.style.display = loginForm.style.display === "block" ? "none" : "block";
+      });
+
+
+
+
+      const searchInput = document.querySelector('.search-input');
+      const searchIcon = document.querySelector('.search-icon');
+
+      searchIcon.addEventListener('click', () => {
+        const searchQuery = searchInput.value;
+        // Perform action with searchQuery, such as searching a database or redirecting to a search results page
+      });
+    });
+    // const loginButton = document.getElementById("login-button");
+    // const loginFormContainer = document.getElementById("login-form-container");
+    // const loginFormCard = document.querySelector(".login-form-card");
+
+    // loginButton.addEventListener("click", () => {
+    //   loginFormCard.classList.toggle("hidden");
+    // });
+
+    // loginFormContainer.addEventListener("click", (event) => {
+    //   if (event.target === loginFormContainer) {
+    //     loginFormCard.classList.add("hidden");
+    //   }
+    // });
+
+
+
+
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Auto Consultancy</a>
+    </div>
+    <div class="search-wrapper">
+      <input type="text" class="search-input" placeholder="Search cars...">
+      <i class="fas fa-search search-icon"></i>
+    </div>
+
+    <a href="#" class="login-btn"><i class="fas fa-user"> Login/Register </i></a>
+
+
+  </nav>
+
+  <div id="login-form" class="login-form">
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <button type="submit">Login</button>
+      <!-- <button id="login-button">Login</button>
+      <div id="login-form-container">
+        <div class="login-form-card hidden">
+          <form class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <div class="forgot-password">
+              <a href="#">Forgot password?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </form>
+  </div> -->
+
+
+
+
+</body>
+
+</html>
